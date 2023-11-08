@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio LaVida</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>  
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Studio LaVida</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold active">
+                        <a href="#quem-somos" class="nav-link">
+                            <i class="bi bi-house-heart-fill me-1"></i>
+                            Quem somos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nosso-time" class="nav-link">
+                            <i class="bi bi-people-fill me-1"></i>
+                            Nosso time
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossos-servicos" class="nav-link">
+                            <i class="bi bi-bag-heart-fill me-1"></i>
+                            Nossos serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text-fill me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="quem-somos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel-quem-somos">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/studio/studio.jpeg" class="w-100" alt="Imagem da Clinica" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/studio/studio-massagem.jpg" class="w-100" alt="Sala de massagem">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000 ">
+                        <img src="images/studio/pilates.jpg" class="w-100" alt="Aula de Pilates">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-quem-somos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-quem-somos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-quem-somos" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-quem-somos" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-quem-somos" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/studio/studio.jpeg" class="d-block w-100 rounded" alt="Foto da clínica">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title"> Sobre <span class="text-color">o Studio</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quia animi eos consequatur ratione libero veritatis accusamus porro, saepe maiores dolor quod mollitia deserunt dignissimos vitae, aliquid suscipit error et.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-color">o Espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In sequi nesciunt, distinctio ex temporibus dolor sapiente maxime, repellat magni, eaque reprehenderit magnam. Veniam perferendis atque quibusdam modi possimus. Ratione, ad.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="nosso-time" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Conheça <span class="text-color">nosso time</span> de profissionais</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/profissionais/profissional1.png" class="d-block w-100 rounded mb-3" alt="">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-person-heart me-1"></i>
+                            Profissional 1
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quia facere fugit consequuntur aspernatur, similique ipsum iure expedita tempore nisi, repudiandae natus hic. Omnis exercitationem sapiente quis obcaecati voluptates? Quas?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/profissionais/profissional2.jpg" class="d-block w-100 rounded mb-3" alt="">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-person-heart me-1"></i>
+                            Profissional 2
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quia facere fugit consequuntur aspernatur, similique ipsum iure expedita tempore nisi, repudiandae natus hic. Omnis exercitationem sapiente quis obcaecati voluptates? Quas?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/profissionais/profissional3.jpg" class="d-block w-100 rounded mb-3" alt="">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-person-heart me-1"></i>
+                            Profissional 3
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quia facere fugit consequuntur aspernatur, similique ipsum iure expedita tempore nisi, repudiandae natus hic. Omnis exercitationem sapiente quis obcaecati voluptates? Quas?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nossos-servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-color">serviços</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-servicos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aulas" class="fw-bold text-start nav-link text-color active">Aulas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#massagens" class="fw-bold text-start nav-link text-color">Massagens</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tratamentos" class="fw-bold text-start nav-link text-color">Tratamentos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aulas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/pilates.jpg" alt="Pilates">
+                                        <h5 class="text-color fw-bold mt-2">Pilates</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/yoga.jpg" alt="Yoga">
+                                        <h5 class="text-color fw-bold mt-2">Yoga</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="massagens">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/massagem.jpg" alt="Massagem relaxante">
+                                        <h5 class="text-color fw-bold mt-2">Massagem relaxante</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/massagem-anti-stress.jpg" alt="Massagem anti-stress">
+                                        <h5 class="text-color fw-bold mt-2">Massagem anti-stress</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/massagem-com-pedras.jpg" alt="Massagem com pedras">
+                                        <h5 class="text-color fw-bold mt-2">Massagem com pedras</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/massagem-modeladora.jpg" alt="Massagem modeladora">
+                                        <h5 class="text-color fw-bold mt-2">Massagem modeladora</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tratamentos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/tratamento.jpg" alt="Tratamento fisioterapeutico">
+                                        <h5 class="text-color fw-bold mt-2">Tratamento fisioterapeutico</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/acupuntura.jpg" alt="Acupuntura">
+                                        <h5 class="text-color fw-bold mt-2">Acupuntura</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/servicos/eletroestimulacao.jpg" alt="Eletroestimulação">
+                                        <h5 class="text-color fw-bold mt-2">Eletroestimulação</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-color">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-color">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-color">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-color">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-color">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-color" ></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-color" ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Centro - Belo Horizonte - MG
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

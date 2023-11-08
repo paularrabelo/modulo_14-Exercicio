@@ -1,0 +1,51 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: 	#87CEFA;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: 	#87CEFA;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: Agbalumo, cursive;
+}
+
+.text-color {
+    color: #87CEFA;
+}
+
+#quem-somos,
+#nossos-servicos {
+    background-color: #F0F8FF;
+}
+
+.nav-servicos .nav-link:hover {
+    color: #87CEFA;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.nav-servicos .nav-link.active,
+#contato button {
+    background-color: #87CEFA;
+    color: #fff;
+}
